@@ -19,7 +19,7 @@ h1, h2 {
     font-family: 'Roboto Slab', serif;
 }
 
-/* Encabezado */
+/* header */
 .encabezado {
     padding: 20px;
     background-color: #F7F9FB;
@@ -31,7 +31,7 @@ h1, h2 {
     color: #0A3D62;
 }
 
-/* Navbar */
+/* navbar */
 .navbar {
     background-color: #FFFFFF;
     padding: 15px;
@@ -62,7 +62,7 @@ h1, h2 {
     color: #3C6382;
 }
 
-/* Títulos */
+
 h2 {
     font-size: 2.5rem;
     color: #3C6382;
@@ -78,7 +78,7 @@ h2 {
     margin-top: 10px;
 }
 
-/* Formulario de Contacto */
+/* Formulario*/
 .formulario-contacto {
     max-width: 600px;
     margin: 20px auto;
@@ -125,7 +125,7 @@ h2 {
     background-color: #3C6382;
 }
 
-/* Cards de Productos */
+
 .productos-container {
     display: flex;
     flex-wrap: wrap;
@@ -135,9 +135,9 @@ h2 {
 }
 
 .container {
-    max-width: 1200px; /* Ajusta el tamaño del contenedor si es necesario */
-    margin: 0 auto; /* Centra el contenedor */
-}
+    max-width: 1200px; 
+    margin: 0 auto; }
+
 .card {
     width: 18rem;
     border: 1px solid #60A3BC;
@@ -167,7 +167,7 @@ h2 {
 
 
 
-/* Botón de Enviar */
+
 .btn {
     background-color: #0A3D62;
     color: #FFFFFF;
@@ -186,27 +186,27 @@ h2 {
 .map-container {
     justify-content: center;
     align-items: center;
-    margin: 20px ; /* Espacio alrededor del mapa */
+    margin: 20px ; 
     border-radius: 8px;
-    overflow: hidden; /* Redondear los bordes del mapa */
+    overflow: hidden; 
 }
 
-/* Si quieres ajustar el estilo de la tarjeta de Bootstrap */
+
 
 
 .card-title {
-    font-size: 1.5rem; /* Tamaño del título de la tarjeta */
+    font-size: 1.5rem; /
 }
 
 .card-text {
-    font-size: 1rem; /* Tamaño del texto de la tarjeta */
+    font-size: 1rem; 
 }
 
 .btn-celeste {
-    background-color: #00BFFF; /* Celeste */
-    color: #FFFFFF; /* Color del texto */
+    background-color: #00BFFF; 
+    color: #FFFFFF; 
 }
 
 .btn-celeste:hover {
-    background-color: #1E90FF; /* Color al pasar el mouse */
+    background-color: #1E90FF;
 }
