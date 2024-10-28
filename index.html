@@ -1,111 +1,148 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BikeFix</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contacto - BikePlanet</title>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+   <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Lato:wght@300;400;700&display=swap">
 </head>
-
-
 <body>
-    <header>
-        <h1>BikeFix</h1>
-        <p>Servicios de mecanica ligera y traslado de bicicletas</p>
-        
+    <header class="encabezado">
+        <h1 class="textoMarca">BikePlanet</h1>
     </header>
-    <nav>
+
+    <nav class="navbar">
         <ul>
-            <li><a href="#home">Inicio</a></li>
-            <li><a href="#nosotros">Conocenos</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#repuestos">Repuestos</a></li>
-            <li><a href="compra">Compra-Venta</a></li>
-            <li><a href="#contacto">Contactanos</a></li>
-            <li><a href="#mapa">Bicicleterias Cercanas</a></li>
-         
+            <li><a href="index.html#home"><i class="fa-solid fa-house"></i> Inicio </a></li>
+            <li><a href="contacto.html"><i class="fa-solid fa-envelope"></i> Contacto </a></li>
+            <li><a href="carrito.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Carrito </a></li>
         </ul>
     </nav>
 
     <main>
-    <section id="home">
-    <h2>Inicio</h2>
-    <p>Este es el inicio de nuestro sitio web donde encontrarás información general.</p>
-</section>
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <!-- Repetir cada estructura de card para obtener un total de 12 elementos -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="trek-speed-concept-slr-6-etap-414445-1-15-5.jpg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Trek Speed Concept</h5>
+                        <p class="card-text">$8000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="bmc-teammachine-slr-three-403657-1.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">BMC Timemachine</h5>
+                        <p class="card-text">$4900</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="cannondale-kids-trail-24-inch-320160-1-11-1.png" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Cannondale Kids</h5>
+                        <p class="card-text">$440</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="cervelo-p-105-2024-878144-1.png" class="card-img-top" alt="Producto 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Cervelo P</h5>
+                        <p class="card-text">$2000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="electra-loft-7d-step-over-406542-1.jpg" class="card-img-top" alt="Producto 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Electra</h5>
+                        <p class="card-text">$700</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="felt-bicycles-b-performance-ultegra-384496-1.png" class="card-img-top" alt="Producto 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Felt B</h5>
+                        <p class="card-text">$2500</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="kaius01three.jpg" class="card-img-top" alt="Producto 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Kaius</h5>
+                        <p class="card-text">$899</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="P3-ULTEGRA2012.jpg" class="card-img-top" alt="Producto 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Cervelo P3</h5>
+                        <p class="card-text">$4500</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="electra-townie-original-7d-step-thru-368802-1.jpg" class="card-img-top" alt="Producto 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Electra Townie</h5>
+                        <p class="card-text">$950</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 10</h5>
+                        <p class="card-text">Descripción del producto 10.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 11</h5>
+                        <p class="card-text">Descripción del producto 11.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 12</h5>
+                        <p class="card-text">Descripción del producto 12.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
 
-<section id="nosotros">
-<h2>Acerca de nosotros</h2>
-<p>¿Alguna vez te ha pasado? Vas camino al trabajo, a la facultad o simplemente estás disfrutando de un paseo, y de repente te das cuenta de que tienes la rueda pinchada. Sin repuesto, sin herramientas a la mano y sin una bicicletería cerca. Ese momento frustrante en el que parece que tu día se detiene. Es justo ahí donde nosotros entramos.
 
-    Somos BikeFix, una empresa pensada para el ciclista urbano que necesita soluciones rápidas, efectivas y, sobre todo, donde sea que esté. Nos especializamos en servicios de mecánica ligera, atendiendo esas emergencias diarias como parches, ajustes de frenos, cambios de cadena o alineación de ruedas. Ofrecemos un servicio de atención a domicilio o en la vía, y llegamos a ti en el menor tiempo posible.
-    
-    Nuestro objetivo es simple: que puedas pedalear sin preocupaciones. Entendemos que para muchos la bicicleta es mucho más que un medio de transporte: es un estilo de vida, una forma de cuidar el planeta y una manera de moverse con libertad. Por eso, queremos estar ahí para cuando más nos necesites.
-    
-    Así que la próxima vez que te encuentres con un imprevisto en tu bicicleta, piensa en BikeFix. Estamos listos para ayudarte a continuar tu viaje, a mantenerte en movimiento y a garantizarte una experiencia de pedaleo sin interrupciones.
-    
-    ¡Pedalea tranquilo, nosotros te cuidamos!</p>
-</section>
+    </main>
 
-
-
-
-<section id="contact">
-    <h2>Contacto</h2>
-    
-    
-    
-    <form action="https://formspree.io/f/mrbgbvej" method="POST">
-        <br>
-<label for="">Nombre:</label>
-<input type="text" placeholder="escriba su nombre" id="" name="nombre" >
-<br>
-<label for="">Apellido:</label>
-<input type="text" placeholder="escriba su apellido" id="" name="apellido">
-<br>
-<label for="">Mail</label>
-<input type="email" name="mail">
-<br>
-
-
-<br>
-<!-- <label>Archivo</label>
-<input type="file" name="file" id="file">
- -->
-
-
-
-<br>
-
-<h1>Que estas buscando ?</h1>
-<!-- <select name="select" id="" name=""> 
-<option value="">Bicicletas</option>
-<option value="">Reparacion</option>
-<option value="">Contacto</option>
-<option value="">Whatsapp</option>
-
-
-
-</select> -->
-<br>
-<br>
-<br>
-
-<label for="mensaje" id="">Escriba su mensaje</label>
-<textarea name="" id="" rows="4" cols="50"></textarea>
-<br>
-<button type="submit" > enviar </button>   
-
-    </form>
-  
-    <!-- https://formspree.io/f/mrbgbvej -->
-</section>
-
-
-
-</main>
-
-<footer>
-    <p>&copy; 2024 BikeFix. Todos los derechos reservados.</p>
-</footer>
+    <footer class="footer">
+        <p>&copy; 2024 MercadoBike. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>

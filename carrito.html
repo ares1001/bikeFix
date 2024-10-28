@@ -1,0 +1,99 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - BikePlanet</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>Contacto - MercadoBike</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Lato:wght@300;400;700&display=swap">
+</head>
+<body>
+    <header class="encabezado">
+        <h1 class="textoMarca">BikePlanet</h1>
+        <img src="./_de59ace9-c4f0-413b-8692-d9f3034da586.jfif" alt="">
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html#home"><i class="fa-solid fa-house"></i> Inicio </a></li>
+            <li><a href="contacto.html"><i class="fa-solid fa-envelope"></i> Contacto </a></li>
+            <li><a href="carrito.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Carrito </a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="container my-4">
+            <h2 class="text-center">Carrito de Compras</h2>
+            <div class="row">
+                <!-- Tarjetas de productos en el carrito -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 1</h5>
+                            <p class="card-text">Descripción del producto 1.</p>
+                            <p class="card-text"><strong>Precio: $100</strong></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <input type="number" min="1" value="1" class="form-control w-25">
+                                <button class="btn btn-danger">Eliminar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 2</h5>
+                            <p class="card-text">Descripción del producto 2.</p>
+                            <p class="card-text"><strong>Precio: $150</strong></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <input type="number" min="1" value="1" class="form-control w-25">
+                                <button class="btn btn-danger">Eliminar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 3</h5>
+                            <p class="card-text">Descripción del producto 3.</p>
+                            <p class="card-text"><strong>Precio: $200</strong></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <input type="number" min="1" value="1" class="form-control w-25">
+                                <button class="btn btn-danger">Eliminar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Agregar más productos según sea necesario -->
+            </div>
+
+            <!-- Total del carrito -->
+            <div class="d-flex justify-content-between my-4">
+                <div>
+                    <a href="index.html#productos" class="btn btn-celeste"><i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+                
+                <div class="text-center">
+                    <h4>Total: <span id="total-price">$450</span></h4>
+                    <button class="btn btn-success">Proceder al Pago</button>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+  
+
+
+    <footer class="footer">
+        <p>&copy; 2024 MercadoBike. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
