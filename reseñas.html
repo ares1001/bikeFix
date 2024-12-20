@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - BikePlanet</title>
+    <title>Reseñas - BikePlanet</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -17,13 +17,17 @@
     </header>
 
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <!-- Botón para el menú hamburguesa en móviles -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Botón para el menú hamburguesa -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav mx-auto">  <!-- Se agrega mx-auto para centrar los items -->
+        <!-- Links del menú -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#home"><i class="fa-solid fa-house"></i> Inicio</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="productos.html"><i class="fa-solid fa-bicycle"></i> Productos</a>
                 </li>
@@ -33,34 +37,29 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contacto.html"><i class="fa-solid fa-envelope"></i> Contacto</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="reseñas.html"><i class="fa-solid fa-star"></i> Reseñas</a>
-                </li>
             </ul>
         </div>
-    </nav>  
+    </nav>
+    
 
     <!-- Contenido principal -->
-    <main> 
-        <section class="home">
-            <div class="title-index">
-                <h1>¡Bienvenido a BikePlanet!</h1>
-                <p>Tu tienda de bicicletas y accesorios favoritos</p>
-                <a href="productos.html" class="btn btn-custom">Explorar Productos</a>
+    <main class="container my-5">
+        <section>
+            <h1 class="subtitulo text-center">Clientes Felices</h1>
+            <div id="resenas-container" class="row">
+                <!-- Tarjetas dinámicas de reseñas -->
             </div>
         </section>
     </main>
 
-    <!-- Script de menú hamburguesa (Bootstrap) -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
-
-    <!-- Script adicional para hamburguesa.js si lo necesitas -->
-    <script src="/js/hamburguesa.js"></script>
-    
-    <!-- Pie de página -->
-    <footer class="footer">
+    <!-- Footer -->
+    <footer class="footer text-center">
         <p>&copy; 2024 BikePlanet. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+    <script src="/js/hamburguesa.js"></script>
+    <script src="js/funciones_resenas.js"></script>
 </body>
 </html>

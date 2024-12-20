@@ -17,16 +17,21 @@
     </header>
 
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <!-- Botón para el menú hamburguesa en móviles -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Botón del menú hamburguesa para móviles -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav mx-auto">  <!-- Se agrega mx-auto para centrar los items -->
+    
+        <!-- Contenido del menú -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="productos.html"><i class="fa-solid fa-bicycle"></i> Productos</a>
+                    <a class="nav-link" href="index.html#home"><i class="fa-solid fa-house"></i> Inicio</a>
                 </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="index.html#productos"><i class="fa-solid fa-bicycle"></i> Productos</a>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="carrito.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Carrito</a>
                 </li>
@@ -38,29 +43,42 @@
                 </li>
             </ul>
         </div>
-    </nav>  
-
-    <!-- Contenido principal -->
-    <main> 
-        <section class="home">
-            <div class="title-index">
-                <h1>¡Bienvenido a BikePlanet!</h1>
-                <p>Tu tienda de bicicletas y accesorios favoritos</p>
-                <a href="productos.html" class="btn btn-custom">Explorar Productos</a>
-            </div>
-        </section>
-    </main>
-
-    <!-- Script de menú hamburguesa (Bootstrap) -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
-
-    <!-- Script adicional para hamburguesa.js si lo necesitas -->
-    <script src="/js/hamburguesa.js"></script>
+    </nav>
+     
     
-    <!-- Pie de página -->
+       
+
+    <main>  
+        <div >
+            <h1 class="subtitulo mt-5">Nuestros Productos</h1>
+        </div>
+    <section>     
+        
+      
+        <div class="container my-5">
+            <div id="bikes-container" class="row">
+  <!-- card dinamicas  -->
+
+
+
+
+            </div>
+         
+      
+   </section>
+
+        </div> 
+  </main>
+
+  
+
     <footer class="footer">
         <p>&copy; 2024 BikePlanet. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+    <script src="/js/hamburguesa.js"></script>
+    <script src="js/funciones_index.js"></script>
 </body>
 </html>

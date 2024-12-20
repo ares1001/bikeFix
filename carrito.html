@@ -1,99 +1,98 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - BikePlanet</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <title>Contacto - MercadoBike</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-   
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Lato:wght@300;400;700&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Lato:wght@300;400;700&display=swap">
 </head>
+
 <body>
+    <!-- Encabezado -->
     <header class="encabezado">
-        <h1 class="textoMarca">BikePlanet</h1>
-        <img src="./_de59ace9-c4f0-413b-8692-d9f3034da586.jfif" alt="">
+        <h1 class="textoMarca"><i class="fa-solid fa-globe"></i> BikePlanet</h1>
+    <h1 class="textoMarca">BikePlanet</h1>
     </header>
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html#home"><i class="fa-solid fa-house"></i> Inicio </a></li>
-            <li><a href="contacto.html"><i class="fa-solid fa-envelope"></i> Contacto </a></li>
-            <li><a href="carrito.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Carrito </a></li>
-        </ul>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Botón para el menú hamburguesa en dispositivos móviles -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Enlaces de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#home"><i class="fa-solid fa-house"></i> Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#productos"><i class="fa-solid fa-bicycle"></i> Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html"><i class="fa-solid fa-envelope"></i> Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reseñas.html"><i class="fa-solid fa-star"></i> Reseñas</a>
+                </li>
+            </ul>
+        </div>
     </nav>
+    
+    <!-- Contenido principal -->
     <main>
         <section class="container my-4">
-            <h2 class="text-center">Carrito de Compras</h2>
-            <div class="row">
-           
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="img/trek-speed-concept-slr-6-etap-414445-1-15-5.jpg" class="card-img-top" alt="Producto 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Trek Speed Concept Etap</h5>
-                            <p class="card-text">Speed Concept SLR 6 eTap es una bicicleta aerodinámica de triatlón de carbono diseñada para una velocidad increíble y una integración perfecta..</p>
-                            <p class="card-text"><strong>$8000</strong></p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <input type="number" min="1" value="1" class="form-control w-25">
-                                <button class="btn btn-danger">Eliminar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Producto 2</h5>
-                            <p class="card-text">2.</p>
-                            <p class="card-text"><strong>Precio: $0</strong></p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <input type="number" min="1" value="1" class="form-control w-25">
-                                <button class="btn btn-danger">Eliminar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Producto 3</h5>
-                            <p class="card-text">Descripción del producto 3.</p>
-                            <p class="card-text"><strong>Precio: $200</strong></p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <input type="number" min="1" value="1" class="form-control w-25">
-                                <button class="btn btn-danger">Eliminar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-         
-            </div>
+            <h2 class="subtitulo">Carrito de Compras</h2>
 
-        
-            <div class="d-flex justify-content-between my-4">
-                <div>
-                    <a href="index.html#productos" class="btn btn-celeste"><i class="fa-solid fa-arrow-left"></i></a>
-                </div>
-                
-                <div class="text-center">
-                    <h4>Total: <span id="total-price">$450</span></h4>
-                    <button class="btn btn-success">Proceder al Pago</button>
-                </div>
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+          
+            <tbody id="carrito-items">
+
+
+
+
+            </tbody>  
+        </table>
+
+
+            <!-- Total y botones -->
+            <div class="text-end mb-3">
+                <h4>Total: $<span id="total">0</span></h4>
             </div>
-            
+    
+            <div class="d-flex justify-content-between">
+                <button id="limpiar-carrito" class="btn btn-danger">Volver al Inicio</button>
+                <button id="finalizar-compra" class="btn btn-success">Finalizar Compra</button>
+            </div>
+        
         </section>
     </main>
-  
 
-
+    <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2024 BikePlanet. Todos los derechos reservados.</p>
     </footer>
+    <script src="/js/hamburguesa.js"></script>
+    <script src="js/funciones_del_carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
+
 </html>
